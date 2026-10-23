@@ -29,7 +29,7 @@ public class Madlibs {
     int startVerb1 = story.indexof("<");
     int endVerb1 = story.indexOf(">");
     String part1 = story.substring(0, startVerb1);
-    String part2 = story.substring(endAdjective1 + 1);
+    String part2 = story.substring(endVerb1 + 1);
     // user input verb1
     System.out.print("Enter a verb: ");
     String Verb1 = scanner.nextLine();
